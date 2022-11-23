@@ -1,0 +1,19 @@
+{
+  "name": "peragok/minesweeper",
+  "type": "library",
+  "description": "Minesweeper game",
+  "require": {
+    "php": "^8.1",
+    "symfony/console": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Minesweeper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Minesweeper\\Tests\\": "tests/"
+    }
+  }
+}
